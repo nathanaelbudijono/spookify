@@ -3,14 +3,14 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 
 const defaultMeta = {
-  title: "Spookify",
-  siteName: "Spookify",
+  title: "Spootkify",
+  siteName: "Spootkify",
   description:
-    "Spookifyi s a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world.",
-  url: "https://spookify.vercel.app",
+    "Spootkifyi s a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world.",
+  url: "https://spootkify.vercel.app",
   type: "website",
   robots: "follow, index",
-  image: "https://spookify.vercel.app/assets/logo.png",
+  image: "https://spootkify.vercel.app/assets/logo.png",
 };
 
 type SeoProps = {
