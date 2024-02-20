@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "npm run sitemap"
+    "postbuild": "npm run sitemap",
+    "sitemap": "next-sitemap"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",
