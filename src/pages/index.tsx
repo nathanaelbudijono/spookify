@@ -42,8 +42,8 @@ export default function Home() {
               collapsible={true}
               onCollapse={() => setIsCollapsed(!true)}
               onExpand={() => setIsCollapsed(!false)}
-              collapsedSize={8}
-              minSize={9}
+              collapsedSize={10}
+              minSize={11}
               maxSize={55}
               style={{ overflow: "hidden" }}
             >

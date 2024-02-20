@@ -12,8 +12,8 @@ const Header = () => {
   return (
     <nav className="w-full top-0 sticky z-40 ">
       <main className="bg-base-200 py-3 rounded-md">
-        <main className="flex justify-between px-7 gap-2">
-          <section className="flex space-x-5 text-typography-100 cursor-not-allowed">
+        <main className="flex sm:justify-between px-7 gap-2 max-sm:gap-0">
+          <section className="flex space-x-5 text-typography-100 cursor-not-allowed max-sm:hidden">
             <GoChevronLeft className="text-lg max-sm:text-base w-8 p-1 h-8 rounded-full bg-base-100" />
             <GoChevronRight className="text-lg max-sm:text-base w-8 p-1 h-8 rounded-full bg-base-100" />
           </section>
